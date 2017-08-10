@@ -11,13 +11,83 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LHProductTableViewCell" id="KGk-i7-Jjw" customClass="LHProductTableViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LHProductTableViewCell" rowHeight="132" id="KGk-i7-Jjw" customClass="LHProductTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="132"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="318" height="132"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAP-VS-lOv">
+                        <rect key="frame" x="10" y="14.5" width="117" height="103"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="117" id="Uot-dD-unP"/>
+                            <constraint firstAttribute="height" constant="103" id="wRw-5m-dnJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="梵高艺术品-太阳" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2To-ct-C2r">
+                        <rect key="frame" x="137" y="24.5" width="171" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="WKa-z8-Z4W"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="亚历山大出价￥230" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22D-d4-plP">
+                        <rect key="frame" x="137" y="55.5" width="171" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="s2q-og-sBj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcv-zU-JPG">
+                        <rect key="frame" x="137" y="87" width="171" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="01V-4K-vWw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-VW-DoB">
+                        <rect key="frame" x="251" y="84" width="57" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="OVO-4T-nh5"/>
+                            <constraint firstAttribute="width" constant="57" id="Z30-2i-3wX"/>
+                        </constraints>
+                        <state key="normal" title="出价"/>
+                        <connections>
+                            <action selector="buyBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xRh-77-E2S"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="22D-d4-plP" firstAttribute="top" secondItem="2To-ct-C2r" secondAttribute="bottom" constant="10" id="2eV-ty-1OS"/>
+                    <constraint firstAttribute="trailing" secondItem="22D-d4-plP" secondAttribute="trailing" constant="10" id="2sp-zH-4pb"/>
+                    <constraint firstItem="2To-ct-C2r" firstAttribute="leading" secondItem="tAP-VS-lOv" secondAttribute="trailing" constant="10" id="B75-cc-hJD"/>
+                    <constraint firstAttribute="trailing" secondItem="5uB-VW-DoB" secondAttribute="trailing" constant="10" id="IDZ-lX-2uX"/>
+                    <constraint firstItem="22D-d4-plP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Vo2-uA-Jbt"/>
+                    <constraint firstAttribute="trailing" secondItem="jcv-zU-JPG" secondAttribute="trailing" constant="10" id="Y8T-0g-uFj"/>
+                    <constraint firstItem="5uB-VW-DoB" firstAttribute="centerY" secondItem="jcv-zU-JPG" secondAttribute="centerY" id="aC4-kt-Akd"/>
+                    <constraint firstItem="tAP-VS-lOv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="bcx-o7-U01"/>
+                    <constraint firstAttribute="trailing" secondItem="2To-ct-C2r" secondAttribute="trailing" constant="10" id="hmJ-Ze-6G8"/>
+                    <constraint firstItem="tAP-VS-lOv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rQ3-Lt-yA7"/>
+                    <constraint firstItem="jcv-zU-JPG" firstAttribute="top" secondItem="22D-d4-plP" secondAttribute="bottom" constant="10" id="upx-Jt-VLF"/>
+                    <constraint firstItem="jcv-zU-JPG" firstAttribute="leading" secondItem="tAP-VS-lOv" secondAttribute="trailing" constant="10" id="y8P-gK-gcd"/>
+                    <constraint firstItem="22D-d4-plP" firstAttribute="leading" secondItem="tAP-VS-lOv" secondAttribute="trailing" constant="10" id="yhV-5m-u54"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="buyBtn" destination="5uB-VW-DoB" id="MOE-W9-02c"/>
+                <outlet property="nameLbl" destination="2To-ct-C2r" id="zTO-lz-nLE"/>
+                <outlet property="peoplePriceLbl" destination="22D-d4-plP" id="yQ9-V2-4LW"/>
+                <outlet property="productImg" destination="tAP-VS-lOv" id="uaw-Ee-OfP"/>
+                <outlet property="timeLbl" destination="jcv-zU-JPG" id="lGJ-Mu-kgr"/>
+            </connections>
+            <point key="canvasLocation" x="-85" y="-21"/>
         </tableViewCell>
     </objects>
 </document>

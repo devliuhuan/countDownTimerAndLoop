@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0256F72D97C8710D6AF0A44A /* libPods-LHCountDownAndLoop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1FF4A64AD9993C7B25B4C5 /* libPods-LHCountDownAndLoop.a */; };
+		9F60CD153C7437BFCDC0C6A6 /* libPods-LHCountDownAndLoopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B093BD663C4079C19F4A3D3 /* libPods-LHCountDownAndLoopTests.a */; };
+		A71B2D7931F3803C47BCEAC2 /* libPods-LHCountDownAndLoopUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506815D00501BD2F3460C62C /* libPods-LHCountDownAndLoopUITests.a */; };
 		DB04B3DC1F30658D00DB762B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04B3DB1F30658D00DB762B /* main.m */; };
 		DB04B3DF1F30658D00DB762B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04B3DE1F30658D00DB762B /* AppDelegate.m */; };
 		DB04B3E21F30658D00DB762B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04B3E11F30658D00DB762B /* ViewController.m */; };
@@ -25,6 +28,12 @@
 		DB04B4251F306D2400DB762B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB04B4241F306D2400DB762B /* Launch Screen.storyboard */; };
 		DB04B4291F306EA100DB762B /* LHProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04B4271F306EA100DB762B /* LHProductTableViewCell.m */; };
 		DB04B42A1F306EA100DB762B /* LHProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB04B4281F306EA100DB762B /* LHProductTableViewCell.xib */; };
+		DB90EA001F3BFC64005B0D83 /* LHProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB90E9FF1F3BFC64005B0D83 /* LHProductModel.m */; };
+		DB90EA021F3C00E2005B0D83 /* productList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB90EA011F3C00E2005B0D83 /* productList.plist */; };
+		DB90EA051F3C0473005B0D83 /* ProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = DB90EA041F3C0473005B0D83 /* ProductService.m */; };
+		DB90EA081F3C0C2A005B0D83 /* LHCountDownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB90EA071F3C0C2A005B0D83 /* LHCountDownManager.m */; };
+		DBB5283E1F3C383600DC2165 /* LHGoodsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB5283C1F3C383600DC2165 /* LHGoodsDetailController.m */; };
+		DBB5283F1F3C383600DC2165 /* LHGoodsDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB5283D1F3C383600DC2165 /* LHGoodsDetailController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048D3188F3C14CF5A53BE79D /* Pods-LHCountDownAndLoopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHCountDownAndLoopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHCountDownAndLoopTests/Pods-LHCountDownAndLoopTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E1FF4A64AD9993C7B25B4C5 /* libPods-LHCountDownAndLoop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHCountDownAndLoop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B093BD663C4079C19F4A3D3 /* libPods-LHCountDownAndLoopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHCountDownAndLoopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1822EA1371EC5158F94E66 /* Pods-LHCountDownAndLoopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHCountDownAndLoopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHCountDownAndLoopUITests/Pods-LHCountDownAndLoopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		506815D00501BD2F3460C62C /* libPods-LHCountDownAndLoopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHCountDownAndLoopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFCA03ECFF9D9952F4A2710 /* Pods-LHCountDownAndLoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHCountDownAndLoop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHCountDownAndLoop/Pods-LHCountDownAndLoop.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE9496FC102CF005FE0354C /* Pods-LHCountDownAndLoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHCountDownAndLoop.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHCountDownAndLoop/Pods-LHCountDownAndLoop.release.xcconfig"; sourceTree = "<group>"; };
+		B0680E8FF3433B90A49BE276 /* Pods-LHCountDownAndLoopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHCountDownAndLoopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHCountDownAndLoopUITests/Pods-LHCountDownAndLoopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B669A671E982DB832F9C3F54 /* Pods-LHCountDownAndLoopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHCountDownAndLoopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHCountDownAndLoopTests/Pods-LHCountDownAndLoopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB04B3D71F30658D00DB762B /* LHCountDownAndLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHCountDownAndLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB04B3DB1F30658D00DB762B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB04B3DD1F30658D00DB762B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +97,16 @@
 		DB04B4261F306EA100DB762B /* LHProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHProductTableViewCell.h; sourceTree = "<group>"; };
 		DB04B4271F306EA100DB762B /* LHProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHProductTableViewCell.m; sourceTree = "<group>"; };
 		DB04B4281F306EA100DB762B /* LHProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHProductTableViewCell.xib; sourceTree = "<group>"; };
+		DB90E9FE1F3BFC64005B0D83 /* LHProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHProductModel.h; path = FDFullscreenPopGesture/LHProductModel.h; sourceTree = "<group>"; };
+		DB90E9FF1F3BFC64005B0D83 /* LHProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHProductModel.m; path = FDFullscreenPopGesture/LHProductModel.m; sourceTree = "<group>"; };
+		DB90EA011F3C00E2005B0D83 /* productList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = productList.plist; sourceTree = "<group>"; };
+		DB90EA031F3C0473005B0D83 /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductService.h; sourceTree = "<group>"; };
+		DB90EA041F3C0473005B0D83 /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductService.m; sourceTree = "<group>"; };
+		DB90EA061F3C0C2A005B0D83 /* LHCountDownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCountDownManager.h; sourceTree = "<group>"; };
+		DB90EA071F3C0C2A005B0D83 /* LHCountDownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCountDownManager.m; sourceTree = "<group>"; };
+		DBB5283B1F3C383600DC2165 /* LHGoodsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHGoodsDetailController.h; sourceTree = "<group>"; };
+		DBB5283C1F3C383600DC2165 /* LHGoodsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHGoodsDetailController.m; sourceTree = "<group>"; };
+		DBB5283D1F3C383600DC2165 /* LHGoodsDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHGoodsDetailController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0256F72D97C8710D6AF0A44A /* libPods-LHCountDownAndLoop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F60CD153C7437BFCDC0C6A6 /* libPods-LHCountDownAndLoopTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,20 +130,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71B2D7931F3803C47BCEAC2 /* libPods-LHCountDownAndLoopUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0DE9BB47A0F58AB802325D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCA03ECFF9D9952F4A2710 /* Pods-LHCountDownAndLoop.debug.xcconfig */,
+				8CE9496FC102CF005FE0354C /* Pods-LHCountDownAndLoop.release.xcconfig */,
+				B669A671E982DB832F9C3F54 /* Pods-LHCountDownAndLoopTests.debug.xcconfig */,
+				048D3188F3C14CF5A53BE79D /* Pods-LHCountDownAndLoopTests.release.xcconfig */,
+				3B1822EA1371EC5158F94E66 /* Pods-LHCountDownAndLoopUITests.debug.xcconfig */,
+				B0680E8FF3433B90A49BE276 /* Pods-LHCountDownAndLoopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E3CE549319AE170019E703A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E1FF4A64AD9993C7B25B4C5 /* libPods-LHCountDownAndLoop.a */,
+				2B093BD663C4079C19F4A3D3 /* libPods-LHCountDownAndLoopTests.a */,
+				506815D00501BD2F3460C62C /* libPods-LHCountDownAndLoopUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB04B3CE1F30658D00DB762B = {
 			isa = PBXGroup;
 			children = (
+				DB90EA011F3C00E2005B0D83 /* productList.plist */,
 				DB04B4241F306D2400DB762B /* Launch Screen.storyboard */,
 				DB04B3D91F30658D00DB762B /* LHCountDownAndLoop */,
 				DB04B3F31F30658D00DB762B /* LHCountDownAndLoopTests */,
 				DB04B3FE1F30658D00DB762B /* LHCountDownAndLoopUITests */,
 				DB04B3D81F30658D00DB762B /* Products */,
+				1C0DE9BB47A0F58AB802325D /* Pods */,
+				7E3CE549319AE170019E703A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,19 +200,15 @@
 				DB04B40E1F3066CB00DB762B /* LHTabBarController.h */,
 				DB04B40F1F3066CB00DB762B /* LHTabBarController.m */,
 				DB04B4201F306A2900DB762B /* FDFullscreenPopGesture */,
+				DBB5283A1F3C380400DC2165 /* Home */,
 				DB04B4111F3067A800DB762B /* LHBaseViewController.h */,
 				DB04B4121F3067A800DB762B /* LHBaseViewController.m */,
-				DB04B4141F3067BD00DB762B /* LHHomeViewController.h */,
-				DB04B4151F3067BD00DB762B /* LHHomeViewController.m */,
 				DB04B4171F3067D900DB762B /* LHClassfiViewController.h */,
 				DB04B4181F3067D900DB762B /* LHClassfiViewController.m */,
 				DB04B41A1F3067F800DB762B /* LHOtherListViewController.h */,
 				DB04B41B1F3067F800DB762B /* LHOtherListViewController.m */,
 				DB04B41D1F3068B600DB762B /* LHMineViewController.h */,
 				DB04B41E1F3068B600DB762B /* LHMineViewController.m */,
-				DB04B4261F306EA100DB762B /* LHProductTableViewCell.h */,
-				DB04B4271F306EA100DB762B /* LHProductTableViewCell.m */,
-				DB04B4281F306EA100DB762B /* LHProductTableViewCell.xib */,
 			);
 			path = LHCountDownAndLoop;
 			sourceTree = "<group>";
@@ -189,6 +242,8 @@
 		DB04B40D1F3065EB00DB762B /* CountDownManager */ = {
 			isa = PBXGroup;
 			children = (
+				DB90EA061F3C0C2A005B0D83 /* LHCountDownManager.h */,
+				DB90EA071F3C0C2A005B0D83 /* LHCountDownManager.m */,
 			);
 			path = CountDownManager;
 			sourceTree = "<group>";
@@ -202,6 +257,25 @@
 			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
+		DBB5283A1F3C380400DC2165 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB04B4141F3067BD00DB762B /* LHHomeViewController.h */,
+				DB04B4151F3067BD00DB762B /* LHHomeViewController.m */,
+				DB04B4261F306EA100DB762B /* LHProductTableViewCell.h */,
+				DB04B4271F306EA100DB762B /* LHProductTableViewCell.m */,
+				DB04B4281F306EA100DB762B /* LHProductTableViewCell.xib */,
+				DB90E9FE1F3BFC64005B0D83 /* LHProductModel.h */,
+				DB90E9FF1F3BFC64005B0D83 /* LHProductModel.m */,
+				DB90EA031F3C0473005B0D83 /* ProductService.h */,
+				DB90EA041F3C0473005B0D83 /* ProductService.m */,
+				DBB5283B1F3C383600DC2165 /* LHGoodsDetailController.h */,
+				DBB5283C1F3C383600DC2165 /* LHGoodsDetailController.m */,
+				DBB5283D1F3C383600DC2165 /* LHGoodsDetailController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB04B4041F30658D00DB762B /* Build configuration list for PBXNativeTarget "LHCountDownAndLoop" */;
 			buildPhases = (
+				C01C6926DA6DBC3CCCAB5687 /* [CP] Check Pods Manifest.lock */,
 				DB04B3D31F30658D00DB762B /* Sources */,
 				DB04B3D41F30658D00DB762B /* Frameworks */,
 				DB04B3D51F30658D00DB762B /* Resources */,
+				FAC1C45E33BC44F619365ADB /* [CP] Embed Pods Frameworks */,
+				EB5591B432D417839B1B0EA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB04B4071F30658D00DB762B /* Build configuration list for PBXNativeTarget "LHCountDownAndLoopTests" */;
 			buildPhases = (
+				262471371355C7410755AEFB /* [CP] Check Pods Manifest.lock */,
 				DB04B3EC1F30658D00DB762B /* Sources */,
 				DB04B3ED1F30658D00DB762B /* Frameworks */,
 				DB04B3EE1F30658D00DB762B /* Resources */,
+				BC650E0166BDE1D915A273E3 /* [CP] Embed Pods Frameworks */,
+				2ABD4371B335E58FA08E1E2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB04B40A1F30658D00DB762B /* Build configuration list for PBXNativeTarget "LHCountDownAndLoopUITests" */;
 			buildPhases = (
+				91EA65EEFD8DA1B8213F28C5 /* [CP] Check Pods Manifest.lock */,
 				DB04B3F71F30658D00DB762B /* Sources */,
 				DB04B3F81F30658D00DB762B /* Frameworks */,
 				DB04B3F91F30658D00DB762B /* Resources */,
+				7BE40CFDEABD7B45B18CFD59 /* [CP] Embed Pods Frameworks */,
+				F7C890C4B10D3C5983871C95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,10 +392,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB5283F1F3C383600DC2165 /* LHGoodsDetailController.xib in Resources */,
 				DB04B42A1F306EA100DB762B /* LHProductTableViewCell.xib in Resources */,
 				DB04B3EA1F30658D00DB762B /* LaunchScreen.storyboard in Resources */,
 				DB04B3E71F30658D00DB762B /* Assets.xcassets in Resources */,
 				DB04B4251F306D2400DB762B /* Launch Screen.storyboard in Resources */,
+				DB90EA021F3C00E2005B0D83 /* productList.plist in Resources */,
 				DB04B3E51F30658D00DB762B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,20 +418,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		262471371355C7410755AEFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2ABD4371B335E58FA08E1E2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHCountDownAndLoopTests/Pods-LHCountDownAndLoopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE40CFDEABD7B45B18CFD59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHCountDownAndLoopUITests/Pods-LHCountDownAndLoopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EA65EEFD8DA1B8213F28C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC650E0166BDE1D915A273E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHCountDownAndLoopTests/Pods-LHCountDownAndLoopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01C6926DA6DBC3CCCAB5687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5591B432D417839B1B0EA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHCountDownAndLoop/Pods-LHCountDownAndLoop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C890C4B10D3C5983871C95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHCountDownAndLoopUITests/Pods-LHCountDownAndLoopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC1C45E33BC44F619365ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHCountDownAndLoop/Pods-LHCountDownAndLoop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB04B3D31F30658D00DB762B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB04B4231F306A2900DB762B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				DB90EA081F3C0C2A005B0D83 /* LHCountDownManager.m in Sources */,
 				DB04B3E21F30658D00DB762B /* ViewController.m in Sources */,
 				DB04B3DF1F30658D00DB762B /* AppDelegate.m in Sources */,
 				DB04B41F1F3068B600DB762B /* LHMineViewController.m in Sources */,
 				DB04B3DC1F30658D00DB762B /* main.m in Sources */,
+				DB90EA001F3BFC64005B0D83 /* LHProductModel.m in Sources */,
 				DB04B4131F3067A800DB762B /* LHBaseViewController.m in Sources */,
 				DB04B4291F306EA100DB762B /* LHProductTableViewCell.m in Sources */,
 				DB04B4101F3066CB00DB762B /* LHTabBarController.m in Sources */,
+				DBB5283E1F3C383600DC2165 /* LHGoodsDetailController.m in Sources */,
 				DB04B4161F3067BD00DB762B /* LHHomeViewController.m in Sources */,
+				DB90EA051F3C0473005B0D83 /* ProductService.m in Sources */,
 				DB04B4191F3067D900DB762B /* LHClassfiViewController.m in Sources */,
 				DB04B41C1F3067F800DB762B /* LHOtherListViewController.m in Sources */,
 			);
@@ -495,6 +722,7 @@
 		};
 		DB04B4051F30658D00DB762B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFCA03ECFF9D9952F4A2710 /* Pods-LHCountDownAndLoop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C9WYVYX22;
@@ -507,6 +735,7 @@
 		};
 		DB04B4061F30658D00DB762B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE9496FC102CF005FE0354C /* Pods-LHCountDownAndLoop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C9WYVYX22;
@@ -519,6 +748,7 @@
 		};
 		DB04B4081F30658D00DB762B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B669A671E982DB832F9C3F54 /* Pods-LHCountDownAndLoopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LHCountDownAndLoopTests/Info.plist;
@@ -531,6 +761,7 @@
 		};
 		DB04B4091F30658D00DB762B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048D3188F3C14CF5A53BE79D /* Pods-LHCountDownAndLoopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LHCountDownAndLoopTests/Info.plist;
@@ -543,6 +774,7 @@
 		};
 		DB04B40B1F30658D00DB762B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1822EA1371EC5158F94E66 /* Pods-LHCountDownAndLoopUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LHCountDownAndLoopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -554,6 +786,7 @@
 		};
 		DB04B40C1F30658D00DB762B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0680E8FF3433B90A49BE276 /* Pods-LHCountDownAndLoopUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LHCountDownAndLoopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -582,6 +815,7 @@
 				DB04B4061F30658D00DB762B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB04B4071F30658D00DB762B /* Build configuration list for PBXNativeTarget "LHCountDownAndLoopTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +824,7 @@
 				DB04B4091F30658D00DB762B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB04B40A1F30658D00DB762B /* Build configuration list for PBXNativeTarget "LHCountDownAndLoopUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +833,7 @@
 				DB04B40C1F30658D00DB762B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
